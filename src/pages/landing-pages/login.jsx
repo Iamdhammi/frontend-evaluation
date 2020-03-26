@@ -141,6 +141,11 @@ function Login(props) {
 		})
     }
 
+    const toggleVisibility = e => {
+        e.preventDefault();
+        setShowPassword(!showPassword);
+    }
+
     return (
         <div>
             <div className="login-container">
@@ -211,8 +216,8 @@ function Login(props) {
                                             <span className="span-error">{passwordError}</span>
                                             {
                                                 showPassword ?
-                                                <Button icon="eye slash" onClick={() => setShowPassword(!showPassword)} className="form__control--icon" />  :
-                                                <Button icon="eye" onClick={() => setShowPassword(!showPassword)} className="form__control--icon" />
+                                                <Button icon="eye slash" onClick={toggleVisibility} className="form__control--icon" />  :
+                                                <Button icon="eye" onClick={toggleVisibility} className="form__control--icon" />
                                             }
                                         </div>
                                     </Form.Field>

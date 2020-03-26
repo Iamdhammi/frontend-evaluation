@@ -10,7 +10,7 @@ function Navbar(props) {
         if(props.logout) {
             props.history.push('/');
         };
-    }, [])
+    }, [props.logout])
 
     return (
         <nav className="nav">

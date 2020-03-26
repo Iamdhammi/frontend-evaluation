@@ -26,7 +26,8 @@ const story = (state = initialState, action) => {
             return {
                 ...state,
                 stories: action.payload,
-                isFetched: true
+                isFetched: true,
+                loading: false,
             }
 
         case t.STORY_ERROR:

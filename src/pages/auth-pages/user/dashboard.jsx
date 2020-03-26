@@ -47,7 +47,7 @@ function Dashboard(props){
     }
     return (
         <div>
-           <Navbar />
+           <Navbar history={props.history}/>
             <div className="container">
                 <ToastContainer autoClose={8000} pauseOnHover={true} />
                 <div className="container__header">
@@ -64,7 +64,7 @@ function Dashboard(props){
                     <ModalStory openModal={modalIsOpen} closeModal={closeModal} />
                 </div>
                 <div className="container__body">
-                    <DataTable stories={userStories} />
+                    <DataTable stories={userStories}/>
                 </div>
             </div>
             

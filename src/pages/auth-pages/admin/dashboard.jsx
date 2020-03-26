@@ -53,7 +53,7 @@ function AdminDashboard(props){
 
     return (
         <div>
-           <Navbar />
+           <Navbar history={props.history}/>
             <div className="container">
                 <ToastContainer autoClose={8000} pauseOnHover={true} />
                 <div className="container__header">
