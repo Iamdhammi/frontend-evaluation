@@ -1,8 +1,6 @@
-Frontend Evalution
 
-## The primary languages used for the development of this project will include:
+## Frontend Evalution
 
-1. React
 
 ### Assumptions made
 
