@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loads Login component 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="login-container"
+    >
+      <div
+        class="grid grid--cols-2"
+      >
+        <div
+          class="grid-cell-1-5"
+        >
+          <div
+            class="login-container__content"
+          >
+            <div
+              class="content"
+            >
+              <div
+                class="content__logo"
+              >
+                <img
+                  alt="Logo"
+                  class="content__logo--img"
+                  src="logo.png"
+                />
+              </div>
+              <div
+                class="content__text"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos soluta fugit, fugiat necessitatibus aperiam minima molestias sint enim ipsum perferendis maxime culpa similique modi tempora, aliquid quasi magnam numquam doloremque.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos soluta fugit, fugiat necessitatibus aperiam minima molestias sint enim ipsum perferendis maxime culpa similique modi tempora, aliquid quasi magnam numquam doloremque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid-cell"
+        >
+          <div
+            class="login-container__fields"
+          >
+            <div
+              class="Toastify"
+            />
+            <div
+              class="content"
+            >
+              <div
+                class="content__header"
+              >
+                <h2>
+                  Proceed to Archimydes
+                </h2>
+              </div>
+              <form
+                class="ui form"
+              >
+                <div
+                  class="field"
+                >
+                  <div
+                    class="form__control"
+                  >
+                    <label>
+                      Email Address
+                    </label>
+                    <div
+                      class="ui left icon input form__control--input"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="mail icon"
+                      />
+                      <input
+                        placeholder="Email"
+                        type="email"
+                        value=""
+                      />
+                    </div>
+                    <span
+                      class="span-error"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="form__control"
+                  >
+                    <label>
+                      Password
+                    </label>
+                    <div
+                      class="ui left icon input form__control--input"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="key icon"
+                      />
+                      <input
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                    <span
+                      class="span-error"
+                    />
+                    <button
+                      class="ui icon button form__control--icon"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="eye icon"
+                      />
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="field"
+                >
+                  <div
+                    class="form__control"
+                  >
+                    <div
+                      class="ui checkbox"
+                    >
+                      <input
+                        class="hidden"
+                        readonly=""
+                        tabindex="0"
+                        type="checkbox"
+                        value=""
+                      />
+                      <label>
+                        Proceed as an Admin
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="form__control"
+                >
+                  <button
+                    class="ui fluid button form__control--button"
+                    type="submit"
+                  >
+                    <i
+                      aria-hidden="true"
+                      class="mail icon"
+                    />
+                    Log in
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

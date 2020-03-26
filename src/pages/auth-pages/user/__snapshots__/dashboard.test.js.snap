@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loads user dashboard 1`] = `
+<DocumentFragment>
+  <div>
+    <nav
+      class="nav"
+    >
+      <div
+        class="nav__container"
+      >
+        <div
+          class="nav__logo"
+        >
+          <img
+            alt="Logo"
+            class="nav__logo--img"
+            src="logo.png"
+          />
+        </div>
+        <div
+          class="nav_routes"
+        >
+          <button
+            class="ui button"
+          >
+            Log out
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="container"
+    >
+      <div
+        class="Toastify"
+      />
+      <div
+        class="container__header"
+      >
+        <div>
+          <h2>
+            My Stories
+          </h2>
+        </div>
+        <div>
+          <button
+            class="ui button"
+          >
+            Create story
+          </button>
+        </div>
+      </div>
+      <div>
+        <div />
+      </div>
+      <div
+        class="container__body"
+      >
+        <div>
+          <div
+            class="sc-fznxsB fWHyCt"
+          >
+            <div
+              class="sc-fznWqX jEDPQU"
+            >
+              <div
+                class="sc-fznJRM mmMWz"
+              >
+                <div
+                  style="padding: 24px; margin-top: 100px;"
+                >
+                  <div
+                    class="ui active transition visible inverted dimmer"
+                    style="display: flex;"
+                  >
+                    <div
+                      class="content"
+                    >
+                      <div
+                        class="ui inverted text loader"
+                      >
+                        Loading
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sc-AxjAm DlzgR rdt_Table"
+                role="table"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,9 @@
+.btn {
+    background-color: green!important;
+    color: #fff!important;
+
+    &--reject {
+        background-color: red!important;
+        color: #fff!important;
+    }
+}

@@ -1,0 +1,48 @@
+.nav {
+	padding: 18px 0px;
+	// background-image: linear-gradient(to right, #0467f6, #0800a3);
+    background-color: transparent;
+    box-shadow: 0px 0px 15px -8px rgba(0,0,0,0.51);
+  // text-align: center;
+
+	&__fixed {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.4);
+		z-index: 5555;
+	}
+
+	&__container {
+		width: 80%;
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+		justify-content: space-between;
+        box-sizing: border-box;
+
+	}
+	&__logo {
+        width: 8%;
+        &--img {
+            width: 220px;
+        }
+	}
+	&__routes {
+		display: flex;
+		
+		@include screen("small") {
+			display: none;
+		}
+		@include screen("mid") {
+			display: none;
+		}
+		@include screen("med-small") {
+			display: none;
+		}
+		.active {
+			color: #4667A7;
+		}
+	}
+
+}
